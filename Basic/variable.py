@@ -6,7 +6,7 @@ print(x, y, z)
 X= Y= Z= "a"
 print(X, Y, Z)
 
-#Unpacking means having collection of values tuples or list ; python allow them to extrct values in variable
+#Unpacking means having collection of values tuples or list ; python allow them to extract values in variable
 name= ["ayush", "Anu", "akshad", "parikshita"]
 a, b, c, d = name
 print(a, b, c, d)
