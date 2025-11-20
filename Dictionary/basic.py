@@ -25,3 +25,20 @@ print(bio)
 bio["surname"] = "kanoje"
 print(bio)
 
+
+#nested Distonary
+student = {
+    "name" : "Ayush kanoje",
+    "subject" : {
+        "py" : 95,
+        "cpp" : 75,
+        "js" : 80,
+    },
+    "cgpa" : 9.5,
+}
+print(student)
+
+#TO PRINT DIST PRESENT INSIDE OR A DICT
+print(student["subject"])
+#TO PRINT VALUES PRESENT INSDIDE OF DICT -> DICT
+print(student["subject"]["py"])
