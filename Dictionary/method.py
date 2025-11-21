@@ -33,3 +33,23 @@ print(student.items())
 list_cating = list(student.items()) #converting into list
 print(list_cating)
 
+print(list_cating[0]) #TO ACCESS KEY:VALUES BY INDEX
+
+#6 .get() -> return value
+get_value = student.get("name")
+print(get_value)
+
+#7 .update() ->
+#  i.Adds new key-value pairs to the dictionary
+student.update({"city": "nagpur","area": "kanhan"})
+
+#  ii.Updates existing keys with new values
+student.update({"name": "pokedexz"})
+
+# iii.Can add new dict
+new_dict = {
+    "yt" : "pokedexz",
+    "subscriber" : "100M"
+}
+student.update(new_dict)
+print(student)
