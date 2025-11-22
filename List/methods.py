@@ -3,7 +3,13 @@ myList1 = [1,2,3,4,5,6,7,8,9,10,2,11,2]
 myList1.append(3)
 print(myList1)
 
-#2.Sort- Arrange values in ascending order.
+#2 .extend() -> use to concat two list, can be used with set,touples,string
+a = ['a','b','c']
+b = ['d','e']
+a.extend(b)
+print(a)
+
+#3.Sort- Arrange values in ascending order.
 myList1.sort()
 print(myList1)
 #To arrange in decending order
