@@ -8,7 +8,7 @@ data1 = [1,2,3,4]
 data1.remove(3)
 print(data1)
 
-#to find the count of 3 in the list
+#To find the count of 3 in the list
 data2 = [5, 3, 8, 3, 9, 3]
-data2 = data.count(3)
-print(data2)
+count_data = data2.count(3)
+print(count_data)
