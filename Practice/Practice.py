@@ -36,11 +36,12 @@
 
 # -------------------------------------------------------
 
-x = "awesome"
+x = "Ayush"
 
 def myfunc():
-    x = "Ayush"
+    x = "Awesome"
     print("Python is " + x)
+    print(f"python is {x}")
 
 myfunc()
 
