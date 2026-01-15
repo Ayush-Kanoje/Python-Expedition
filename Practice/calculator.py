@@ -5,8 +5,6 @@ num2 = float(input("Enter 2nd number: "))
 print("Please enter your required operation")
 print("\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Remainder")
 
-print("Please enter your required operation")
-print("\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Remainder")
 
 choice = input("Enter your choice (1/2/3/4/5): ")
 
