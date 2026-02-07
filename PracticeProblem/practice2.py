@@ -1,4 +1,4 @@
-
+#to check input vslue is pslimdroneor not
 varInput = input("enter value")
 
 varInput2 = varInput[::-1]
