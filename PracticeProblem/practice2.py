@@ -4,6 +4,6 @@ varInput = input("enter value")
 varInput2 = varInput[::-1]
 
 if(varInput2 == varInput):
-    print("palimdrome")
+    print("palimdrone")
 else:
-    print("not palimdrome")    
+    print("not palimdrone")    
