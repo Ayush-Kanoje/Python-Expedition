@@ -13,7 +13,7 @@ print("-------------------------------------")
 #relational 
 c=10
 d=20
-      #show ans in boolean value [False,True]
+#show ans in boolean value [False,True]
 print(a==b) 
 print(a!=b)
 print(a<=b)

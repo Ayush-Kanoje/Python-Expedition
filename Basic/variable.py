@@ -10,3 +10,6 @@ print(X, Y, Z)
 name= ["ayush", "Anu", "akshad", "parikshita"]
 a, b, c, d = name
 print(a, b, c, d)
+
+# ⚠️ Important Rule
+# The number of variables must match the number of items in the list, otherwise Python throws an error:
