@@ -1,7 +1,6 @@
 #RULES : 1. DISCT DOES NOT ALLOW KEY VALUE PAIR WITH EXISTING KEY NAME
 #        2. THEY ARE UNORDERED (key:valyues does not have idx), MUTABLE.
 
-
 bio = {
     "name" : "Ayush",
     "channel_name": "Pokedexz",

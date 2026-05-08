@@ -1,8 +1,6 @@
 num1 = float(input("Enter 1st number: "))
 num2 = float(input("Enter 2nd number: "))
 
-
-print("Please enter your required operation")
 print("\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Remainder")
 
 
