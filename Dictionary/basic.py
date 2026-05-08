@@ -1,6 +1,7 @@
 #RULES : 1. DISCT DOES NOT ALLOW KEY VALUE PAIR WITH EXISTING KEY NAME
 #        2. THEY ARE UNORDERED (key:valyues does not have idx), MUTABLE.
 
+
 bio = {
     "name" : "Ayush",
     "channel_name": "Pokedexz",
@@ -12,14 +13,17 @@ bio = {
 }
 print(bio)
 
+
 #TO ACCESS VALUE INSIDE OF A DICT WE NEED KEY NAME
 print(bio["channel_name"])
 print(bio["name"], bio["date"]) #when need to access multiple values
 print(bio["learning"], bio["todayTopic"])
 
+
 #TO CHANGE,ASSINE OR TO ADD NEW KEY VALUE PAIR. 
 bio["name"] = "AYUSH"
 print(bio)
+
 
 #add new
 bio["surname"] = "kanoje"
@@ -37,8 +41,16 @@ student = {
     "cgpa" : 9.5,
 }
 print(student)
+print(student.keys())
+
 
 #TO PRINT DIST PRESENT INSIDE OR A DICT
 print(student["subject"])
+
+
 #TO PRINT VALUES PRESENT INSDIDE OF DICT -> DICT
 print(student["subject"]["py"])
+
+
+#if wee need to search for specific key or value
+student["Add user input variable here without " " quotes"]
