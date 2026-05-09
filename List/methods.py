@@ -12,9 +12,11 @@ print(a)
 #3.Sort- Arrange values in ascending order.
 myList1.sort()
 print(myList1)
+
 #To arrange in decending order
 myList1.sort(reverse=True)
 print(myList1)
+
 #It also work for variable
 myList2 = ["anushka", "ayush", "akshad", "parikshita"]
 myList2.sort()
