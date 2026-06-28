@@ -42,7 +42,5 @@ def myfunc():
     x = "Awesome"
     print("Python is " + x)
     print(f"python is {x}")
-
 myfunc()
-
 print(x)
