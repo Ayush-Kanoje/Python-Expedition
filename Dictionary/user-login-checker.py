@@ -11,10 +11,10 @@ users = {
 }
 
 if username in users:
-    if(password != users[username] ):
+    if(password != users[username]):
         print("password is wrong")
     else:
-        print("Login Conform")
+        print("Login Confirm")
 else:
     print("Wrong username")
 
