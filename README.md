@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/language-Python-3572A5.svg) ![Updated](https://img.shields.io/badge/updated-2026--07--01-brightgreen)
 
-> Documenting my daily learning: code, notes, and practice problems — one day at a time.
+> Documenting my daily learning: code, notes, and practice problems.
 
 ## About this repo
 
