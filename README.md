@@ -16,13 +16,7 @@ This repository captures my day-by-day learning progress in Python. It contains 
 - `notes/` — short write-ups, explanations, and insights from learning sessions.
 - `practice-questions/` — solved problems and challenges (with inputs/outputs and brief solutions).
 - `README.md` — overview + progress tracker.
-
-If your actual folders differ, adapt the above to match your structure (for example, `Basic/`, `List/`, `String/` etc.).
-
-
-- To add a new entry: append a row with `Day`, `Date`, `Topic`, `Status` and a relative path to code or notes.
-- Use `✅` for done, `⏳` for in-progress, and `📝` for planned.
-
+  
 ## How I'm learning
 
 - Daily practice: small exercises and one focused topic per day.
