@@ -21,6 +21,5 @@ for usegae in cpu_usage:
         print(f"Warning! CPU usage is {usegae}%")
         warning_count += 1
 
-
 print("Total Warning: ",warning_count)
 print("Highest CPU useage: ",max(cpu_usage),"%")
