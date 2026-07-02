@@ -1,4 +1,3 @@
-
 # Count Present students.
 # Count Absent students.
 # Print the attendance percentage.
@@ -6,8 +5,6 @@
 # Absent : 4
 # Attendance : 60%
 # The total number of students is the length of the list
-
-
 
 
 attendance = [
