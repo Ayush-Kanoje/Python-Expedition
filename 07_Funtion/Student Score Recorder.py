@@ -18,8 +18,6 @@
 # Lowest Mark : 20
 # Average Mark : 57.6
 # Students Passed : 3
-
-
 def no_of_student(student):
     print("Total student: ",student)
     for student_mark in range(1,student+1):
