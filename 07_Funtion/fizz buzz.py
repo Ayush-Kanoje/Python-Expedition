@@ -1,5 +1,5 @@
 def fizz_buzz(no):
-    for i in range(0, no+1):
+    for i in range(0,no+1):
         if i%3 == 0 and i%5 == 0:
             print(i," FizzBuzz")
         elif i%3 == 0:
