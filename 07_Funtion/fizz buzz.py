@@ -10,4 +10,7 @@ def fizz_buzz(no):
             print(i)
 
 user = int(input("Enter number: "))
-fizz_buzz(user)
+
+for i in range(0, user+1):
+    if i%3 == 0 and i%5 == 0:
+        print("FizzBuzz")
