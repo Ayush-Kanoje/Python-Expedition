@@ -1,2 +1,16 @@
 def calculate():
     print("Performing calculation...")
+
+
+from math_package import calculate, add, subtract, multiply, divide
+
+# Using the placeholder calculate function
+calculate()
+
+# Perform basic operations
+print("Addition:", add(5, 3))
+print("Subtraction:", subtract(10, 4))
+
+# Perform advanced operations
+print("Multiplication:", multiply(4, 2))
+print("Division:", divide(10, 2))
