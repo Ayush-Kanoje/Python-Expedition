@@ -1,3 +1,18 @@
+# Dictionary
+# Ordered (Python 3.7+) — insertion order is preserved
+# Mutable — you can add, update, and delete key-value pairs after creation
+# Keys must be unique — duplicate key silently overwrites the previous value
+# Keys must be immutable — strings, numbers, tuples are valid; lists are not
+# Stores key-value pairs — every value is accessed via its key, no index
+# Nested dicts are possible — a value can itself be another dictionary
+
+
+
+# TO CREATE EMPTY DICT
+ayush = {}
+d = dict()
+
+
 student = {
     "name" : "Ayush kanoje",
     "year"  : "3year, 5sem",
@@ -10,21 +25,51 @@ student = {
 }
 print(student)
 
+
 #1 TO PRINT ALL THE KEY INSIDE OF DICT.
 print(student.keys()) #nested dict key:value are not returned
 print(student["subject"].keys())
+
+
+
+
+
+
 
 #2 TO PRINT ALL THE VALUES INSIDE OF A DICT
 print(student.values())
 print(student["subject"].values())
 
+
+
+
+
+
+
+
+
 #3 TO FIND LEN OF DICT
 print(len(student)) #count inner dict as one key:value
 print(len(student["subject"])) #inner dict len
 
+
+
+
+
+
+
+
+
 #4 TO TYPE CAST
 print(list(student))
 print(list(student["subject"]))
+
+
+
+
+
+
+
 
 #5 .itmes() -> IT RETURN VIEW OF A DICT IN OBJECT CONATINING KEY:VALUE PAIR AS A TOUPLES
 print(student.items())
@@ -34,13 +79,26 @@ print(list_cating)
 
 print(list_cating[0]) #TO ACCESS KEY:VALUES BY INDEX
 
+
+
+
+
+
 #6 .get() -> return value
 get_value = student.get("name")
 print(get_value)
 
+
+
+
+
+
+
+
 #7 .update() ->
 #  i.Adds new key-value pairs to the dictionary
 student.update({"city": "nagpur","area": "kanhan"})
+student.update({"year" : "4th | 7sem"})
 
 #  ii.Updates existing keys with new values
 student.update({"name": "pokedexz"})
