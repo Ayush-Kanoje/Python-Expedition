@@ -12,7 +12,8 @@ print(str1[0], str2[1]) #To find which character is present on which particular 
 print(str1[0:3], str2[0:5]) #Slicing - retrun combination of a character i.e startingIndexValue : endingIndexValue
 print(str1[0:], str2[4:]) 
 print(str1[-3:-1]) #negative slicing start from -1 index
-print(str2[:-1])
+print(str2[:-1])  #for better understanding convert -ve indxies in +ve 
+                  # i.e anu -> in -ve (-3,-2,-1) in +ve (0,1,2)
 
 #endswith 
 print(str1.endswith("ANU")) #FALSE because str1 dosen't end with ANU 
