@@ -44,4 +44,5 @@ print(result)
 
 
 # .intersection -> return same value present in one or more set
+print(Set_variable_name.union(s,set1))
 print(s.intersection(set1,Set_variable_name))
