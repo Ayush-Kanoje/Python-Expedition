@@ -7,9 +7,10 @@
 # 6. Supports math operations — union |, intersection &, difference -, symmetric difference ^
 
 
+# set = {} -> dont use this method to create set, it will create dict not a set
+
 s = {1,2,3,4, "Ayush"} #dict and set both use {}
 
-# set = {} -> dont use this method to create set, it will create dict not a set
 
 #TO CREATE EMPTY SET
 Set_variable_name = set()
