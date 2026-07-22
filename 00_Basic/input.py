@@ -5,3 +5,4 @@ marks = float(input("Marks :"))
 print("Welcome",Name)
 print("Age =",age)
 print("Marks =",marks)
+
