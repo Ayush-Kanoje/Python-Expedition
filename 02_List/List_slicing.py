@@ -28,12 +28,16 @@ for i in range(list_size):
 # This returns elements at index 1 and 2 (2 elements total)
 print(movieList[1:3])  # Output: 2nd and 3rd movies
 
+
+
 # Replace slice [1:3] with a string
 # IMPORTANT: When assigning a string to a slice, Python iterates over each character
 # So "lemon" becomes ['l', 'e', 'm', 'o', 'n'] - each character becomes a separate element!
 # This replaces 2 elements (index 1, 2) with 5 individual characters
 movieList[1:3] = "lemon" 
 print(movieList)  # Shows the list with characters inserted
+
+
 
 # [:-1] - Slice from start to the last element (exclusive), i.e., all elements except the last one
 # Replace all elements except the last one with ["orange"]
