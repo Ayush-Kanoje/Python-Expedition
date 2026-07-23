@@ -22,7 +22,14 @@ for i in range(list_size):
     marks_list= int(input(f"Enter marks of studednt{i+1}:"))
     marks.append(marks_list)
   
+
+failed_student_count = 0
 for i in marks:
     if i >= 40:
-        print("passed")
+        print(f"passed {i}")
         continue
+    else:
+        failed_student_count += 1
+
+
+print(f"Count of student who scored less then 41: {failed_student_count}")
