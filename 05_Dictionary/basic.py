@@ -1,4 +1,4 @@
-#RULES : 1. DISCT DOES NOT ALLOW KEY VALUE PAIR WITH EXISTING KEY NAME
+#RULES : 1. DISCT DOES NOT ALLOW KEY WITH EXISTING KEY NAME
 #        2. THEY ARE UNORDERED (key:valyues does not have idx), MUTABLE.
 
 bio = {
@@ -11,6 +11,10 @@ bio = {
     "date" : "20/11/2025",
 }
 print(bio)
+
+#TO GET ALL KEYS FROM DICTIONARY 
+print(bio.keys())  #return both key and value
+print(bio.items()) #return all values 
 
 
 #TO ACCESS VALUE INSIDE OF A DICT WE NEED KEY NAME
