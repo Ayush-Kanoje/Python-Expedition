@@ -45,9 +45,7 @@ print(len(student["subject"])) #inner dict len
 print(list(student))
 print(list(student["subject"]))
 
-
 #5 .itmes() -> IT RETURN VIEW OF A DICT IN OBJECT CONATINING KEY:VALUE PAIR AS A TOUPLES
-
 print(student.items())
 
 list_cating = list(student.items()) #converting into list

@@ -11,28 +11,30 @@
 # Print remaining users.
 # Count locked users.
 
+
+
+
 login_attempts = {
     "Rahul": 2,
     "Priya": 6,
     "Amit": 8,
     "Neha": 1,
     "Rohan": 5,
-    "Ayush" : 3,
-    "Anu" : 1
+    "Ayush": 3,
+    "Anu": 1
 }
 
+
+
 blocked_user = 0
-active_user = 0
 new_dict = {}
+
 for users, attempts in login_attempts.items():
     if attempts > 5:
         blocked_user += 1
-        login_attempts.pop("Ayush")
-        continue
+        print(f"{users} is locked — {attempts} attempts")
     else:
-        # active_user += 1
-        new_dict.update(login_attempts)
-        print(login_attempts)
-        continue
+        new_dict[users] = attempts   # add only this user to new dict
 
-print(blocked_user)
+print(f"\nActive Users: {new_dict}")
+print(f"Locked Users Count: {blocked_user}")
