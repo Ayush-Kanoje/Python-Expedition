@@ -18,19 +18,19 @@ print(bio.items()) #return all values
 
 
 #TO ACCESS VALUE INSIDE OF A DICT WE NEED KEY NAME
-print(bio["channel_name"])
-print(bio["name"], bio["date"]) #when need to access multiple values
-print(bio["learning"], bio["todayTopic"])
+print(bio["channel_name"], "\n")
+print(bio["name"], bio["date"], "\n") #when need to access multiple values
+print(bio["learning"], bio["todayTopic"], "\n")
 
 
 #TO CHANGE,ASSINE OR TO ADD NEW KEY VALUE PAIR. 
 bio["name"] = "AYUSH"
-print(bio)
+print(bio, "\n")
 
 
 #add new
 bio["surname"] = "kanoje"
-print(bio)
+print(bio, "\n")
 
 
 #nested Distonary
@@ -44,16 +44,16 @@ student = {
     "cgpa" : 9.5,
 }
 print(student)
-print(student.keys())
+print(student.keys(), "\n")
 
 
 #TO PRINT DIST PRESENT INSIDE OR A DICT
-print(student["subject"])
+print(student["subject"], "\n")
 
 
 #TO PRINT VALUES PRESENT INSDIDE OF DICT -> DICT
-print(student["subject"]["py"])
+print(student["subject"]["py"], "\n")
 
 
 #if wee need to search for specific key or value
-student["Add user input variable here without " " quotes"]
+# student["Add user input variable here without " " quotes"]
