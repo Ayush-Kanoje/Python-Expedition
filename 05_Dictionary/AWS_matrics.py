@@ -12,8 +12,12 @@ for key, values in metrics.items():
     print(key, values)
 
 
+
+
 metrics.pop("network") # remove specific item
 print(metrics.popitem()) #remove last item  from dict
+
+
 
 
 new_matircs = metrics.copy()
@@ -23,4 +27,7 @@ new_matircs.setdefault("Latency" , 40)
 print(new_matircs)
 
 print(metrics.clear())
+
+
+
 

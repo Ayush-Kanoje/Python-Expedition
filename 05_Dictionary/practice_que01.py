@@ -1,15 +1,16 @@
 # Login Attempts
-# login_attempts = {
-#     "Rahul": 2,
-#     "Priya": 6,
-#     "Amit": 8,
-#     "Neha": 1,
-#     "Rohan": 5
-# }
+login_attempts = {
+    "Rahul": 2,
+    "Priya": 6,
+    "Amit": 8,
+    "Neha": 1,
+    "Rohan": 5
+}
 # Tasks
 # Lock accounts having more than 5 attempts.
 # Print remaining users.
 # Count locked users.
+
 
 
 
