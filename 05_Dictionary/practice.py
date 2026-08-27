@@ -4,6 +4,8 @@ my_bio = {
     "college" : "JIT"
 }
 
+
+
 print(my_bio) 
 print(my_bio.get("age"))
 print(my_bio.get("name1","NA")) # agar name1 key nhi mile to NA return kr do -> revent keyerror

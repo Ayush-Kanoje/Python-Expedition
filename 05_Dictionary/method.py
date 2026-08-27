@@ -41,6 +41,8 @@ print(len(student)) #count inner dict as one key:value
 print(len(student["subject"])) #inner dict len
 
 
+
+
 #4 TO TYPE CAST
 print(list(student))
 print(list(student["subject"]))
