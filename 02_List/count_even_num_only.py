@@ -41,7 +41,20 @@
 # Q4. Move all zeros to the end
 # Move every 0 to the end while keeping the order of the other elements.
 
+
+# def move_zero(num: list):
+#     zero_count = 0
+#     for val in num:
+#         if val == 0:
+#             zero_count +=1
+#             num.remove(val)
+    
+#     num.extend([0]*zero_count)
+#     return num
+
 # numbers4 = [0, 1, 0, 3, 12]
+# print(move_zero(numbers4))
+
 
 
 
@@ -49,8 +62,21 @@
 # Q5. Remove duplicates
 # Create a new list containing each number only once, while preserving order.
 
-numbers = [1, 2, 2, 3, 1, 4, 3]
 
+
+def rm_dup(num: list):
+
+    unique_set = set()
+    result = []
+    for val in num:
+        if val not in unique_set:
+            unique_set.add(val)
+            result.append(val)
+
+    return result
+
+numbers5 = [1, 2, 2, 3, 1, 4, 3]
+print(rm_dup(numbers5))
 
 
 
