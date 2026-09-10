@@ -30,6 +30,7 @@ This repository captures my day-by-day learning progress in Python. It contains 
 - [x] Basics: syntax, variables, types
 - [x] Control flow: if, for, while
 - [x] Functions and scope
+- [x] Recursion
 - [x] Data structures: lists, tuples, dicts, sets
 - [ ] File I/O and string handling
 - [ ] Object-oriented programming
