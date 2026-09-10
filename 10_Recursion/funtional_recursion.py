@@ -3,14 +3,6 @@
 
 # Q. Return SUM of N natural no
 
-# def sumfun(sum,i,n):
-#     if i > n:
-#         print(sum)
-#         return
-
-#     sumfun(sum+i,i+1,n)
-
-
 def sumfun(num):
     if num == 1:
         return 1
