@@ -22,4 +22,15 @@ def printf(n):
     print(n)
 
 
-printf(5)
+print(x)
+
+
+class Solution:
+    def printTillN(self, n):
+        if n == 0:
+            return
+        self.printTillN(n - 1) #self. : self means the current object, so we use self.function() to call a function that belongs to that object.
+        print(n)
+
+obj = Solution()
+obj.printTillN(5)
