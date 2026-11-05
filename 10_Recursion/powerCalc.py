@@ -1,9 +1,8 @@
 # Calculate x raised to power n
 
-def powerfun(num, x):
-    print(num)
-    return num ** x
+def powerC(n,x):
+    return x**n
 
+y = powerC(n=5, x=2)
 
-x = powerfun(5,2)
-print(x)
+print(y)

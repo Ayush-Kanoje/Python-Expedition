@@ -2,7 +2,6 @@
 
 
 # Q. Return SUM of N natural no
-
 def sumfun(num):
     if num == 1:
         return 1
