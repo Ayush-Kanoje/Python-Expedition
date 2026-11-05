@@ -1,25 +1,46 @@
 
-# Head Recursion - its a work first then call funtion recursion
+# Head Recursion - it work first then call funtion recursion
 # Beacuse of this it will print value in desending order (based on code)
-def printf(n):
-    if n == 0:
+
+#print No from 1 to N
+
+def printf(n,i):
+    if i > n:
         return
-    print(n)
-    printf(n-1)
+
+    print(i)
+    printf(n,i+1)
+
+printf(i = 1, n = 5)
 
 
-printf(5)
+
+
+
+
 
 print("------------------------------------------------------")
 
 
-# Tail Recursion: Its first call then work recursion type
+
+
+
+# Tail Recursion: It is first call then work recursion type
 # Beacuse of this it will print value in asending order (based on code)
-def printf(n):
-    if n == 0:
+
+#print No from N to 1
+
+def tailR(i,n):
+    if i > n:
         return
-    printf(n-1)
-    print(n)
+    tailR(i+1,n)
+    print(i)
 
 
-printf(5)
+tailR(i = 1, n = 5)
+
+
+
+
+
+
